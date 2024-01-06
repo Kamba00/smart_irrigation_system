@@ -13,8 +13,8 @@ import threading
 import requests
 import time
 
-api_key = 'a8dc475f7a82317a89df701bc968f0bd'
-city = 'Wote'
+api_key = 'insert your  own token here'
+city = 'insert location'
 base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
 
 #tank features
@@ -105,7 +105,7 @@ GPIO.setup(ECHO, GPIO.IN)  # Set pin as GPIO in
 
 # array to store data
 data = []
-destination = "/home/gerald/Desktop/Irrigation system/Data/irrigation_logic_recent.csv"
+destination = "/home/mine/Desktop/Irrigation system/Data/irrigation_logic_recent.csv"
 fields = [
     "Timestamp",
     "Tank level",

@@ -43,7 +43,7 @@ GPIO.setup(ECHO, GPIO.IN)  # Set pin as GPIO in
 
 # array to store data
 data = []
-destination = "/home/gerald/Desktop/Irrigation system/Data/irrigation_scheduled_recent_reformatted.csv"
+destination = "/home/mine/Desktop/Irrigation system/Data/irrigation_scheduled_recent_reformatted.csv"
 fields = [
     "Timestamp",
     "Tank level",
